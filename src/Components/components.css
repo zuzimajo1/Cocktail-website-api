@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap");
+
+.header-navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 3px 5px 3px 0px rgb(94, 126, 113);
+  background-color: white;
+}
+
+.header-container {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-wrapper {
+  display: flex;
+  width: 170px;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.navbar-wrapper a {
+  text-decoration: none;
+}
+
+.navbar-wrapper a p {
+  font-size: 19px;
+  letter-spacing: 2px;
+  color: rgb(37, 36, 36);
+  font-family: "Yaldevi", sans-serif;
+}
+
+.navbar-img {
+  height: 100%;
+}
+
+.navbar-img img {
+  width: 200px;
+  height: 100%;
+}
+
+.about-container {
+  margin-top: 7px;
+  width: 100%;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-wrapper {
+  height: 80%;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-wrapper h3 {
+  padding: 3rem 0rem;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px;
+}
+
+.about-wrapper p {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.error-container {
+  width: 100%;
+  margin-top: 7px;
+  height: 40vh;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-container h3 {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+}
+
+.error-container div {
+  margin-top: 3rem;
+}
+
+.error-container div button {
+  font-family: "Lato", sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(205, 221, 240);
+}
+
+.error-container div button:hover {
+  background-color: rgb(142, 188, 243);
+  transition: all ease-in-out 500ms;
+}
+
+.loading-container {
+  width: 100%;
+}
+
+.loading-container div img {
+  mix-blend-mode: multiply;
+}
+
+.loading-container div {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0rem;
+}
+
+.searchbar-wrapper {
+  width: 700px;
+  height: 70%;
+  background-color: white;
+  box-shadow: 3px 5px 3px 0px rgb(94, 126, 113);
+}
+
+.searchbar-wrapper form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+}
+
+.searchbar-wrapper form label {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(29, 58, 29);
+}
+
+.searchbar-container form input {
+  margin-top: 1rem;
+  background-color: rgb(227, 233, 235);
+  height: 38px;
+  border-radius: 4px;
+  padding: 0rem 0.6rem;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+.searchbar-container form input:focus {
+  border: 2px solid black;
+}
+
+.cocktails-item-container {
+  width: 380px;
+  height: 510px;
+  padding: 0rem 1rem;
+  background-color: white;
+  box-shadow: 3px 5px 3px 0px rgb(94, 126, 113);
+}
+
+.cocktails-item-container:hover {
+  box-shadow: 3px 5px 3px 0px rgb(49, 63, 58);
+  transition: all ease-in-out 500ms;
+}
+
+.cocktails-item-container img {
+  margin-top: 1rem;
+  width: 100%;
+  height: 350px;
+}
+
+.cocktail-body {
+  margin: 3rem auto;
+  max-width: 1170px;
+  width: 85vw;
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+}
+
+.cocktail-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cocktails-information {
+  height: 120px;
+  margin-top: 1rem;
+}
+
+.cocktails-information h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding: 0.3rem 0rem;
+}
+
+.cocktails-information p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.cocktails-item-button {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background: rgb(74, 114, 98);
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0.5rem;
+}
+
+.cocktails-item-button:hover {
+  background: rgb(61, 83, 75);
+  transition: all ease-in-out 500ms;
+}
+
+.cocktails-title {
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.singlecocktail-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.singlecocktail-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.singlecocktail-wrapper {
+  width: 100%;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.singlecocktail-wrapper .singlecocktail-title {
+  margin-top: 3rem;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.singlecocktail-items img {
+  width: 400px;
+  height: 400px;
+}
+
+.singlecocktail-button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  background: rgb(74, 114, 98);
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.singlecocktail-button:hover {
+  background: rgb(61, 83, 75);
+  transition: all ease-in-out 500ms;
+}
+
+.singlecocktail-descriptions {
+  width: 450px;
+  padding: 2rem 2rem;
+}
+
+.singlecocktail-descriptions p {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(0.7rem, 2.5vw, 1rem);
+  letter-spacing: 1px;
+  margin: 1rem 0rem;
+  line-height: 1.5;
+}
+
+.singlecocktail-descriptions p span {
+  padding: 0.2rem 0.5rem;
+  margin-right: 1rem;
+  background-color: rgb(74, 114, 98);
+  color: white;
+}
+
+.navbar-menu-wrapper {
+  width: auto;
+  display: none;
+}
+
+.navbar-menu-wrapper button {
+  font-size: 25px;
+  display: flex;
+  padding: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(15, 43, 15);
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.header-container-logo {
+  height: 60px;
+}
+
+@media (max-width: 972px) {
+  .singlecocktail-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .singlecocktail-descriptions {
+    width: 90%;
+    padding: 2rem 2rem;
+  }
+
+  .singlecocktail-wrapper {
+    width: 100%;
+  }
+
+  .singlecocktail-descriptions p {
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .singlecocktail-items img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .about-wrapper {
+    width: 85%;
+  }
+  .searchbar-wrapper {
+    width: 90%;
+  }
+  .cocktails-title {
+    font-size: 25px;
+  }
+  .searchbar-wrapper form label {
+    font-size: 15px;
+  }
+  .searchbar-container form input {
+    font-size: 17px;
+  }
+  .navbar-menu-wrapper {
+    display: flex;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    overflow: hidden;
+    transition: all 500ms;
+    justify-content: center;
+  }
+
+  .navbar-wrapper-active {
+    height: 80px;
+    transition: all 500ms;
+  }
+
+  .header-container-logo {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-wrapper a {
+    padding: 0.5rem 1rem;
+    transition: all 500ms;
+  }
+
+  .navbar-wrapper a:hover {
+    background-color: rgb(227, 233, 235);
+    transition: all 500ms;
+  }
+
+  .navbar-wrapper a p {
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: rgb(37, 36, 36);
+    font-family: "Yaldevi", sans-serif;
+    transition: all 500ms;
+  }
+
+  .navbar-wrapper a p:hover {
+    transform: translateX(10px);
+    transition: all 500ms;
+  }
+  .cocktails-item-container img {
+    
+    width: 100%;
+    height: 300px;
+  }
+
+  .cocktails-item-container {
+    width: 300px;
+    height: 460px;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchbar-wrapper form label {
+    font-size: 13px;
+  }
+  .searchbar-container form input {
+    font-size: 15px;
+  }
+  .cocktails-title {
+    font-size: 22px;
+  }
+  .singlecocktail-items img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-navbar {
+    width: 100%;
+  }
+  .searchbar-wrapper form label {
+    font-size: 12px;
+  }
+  .searchbar-container form input {
+    font-size: 13px;
+  }
+  .cocktails-title {
+    font-size: 20px;
+  }
+}
